@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="paamelding">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ovelse" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lag" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="navn" type="xs:string" />
+                  <xs:attribute name="lagnr" type="xs:string" />
+                  <xs:attribute name="dato" type="xs:string" />
+                  <xs:attribute name="kl-skytetid" type="xs:string" />
+                  <xs:attribute name="kl-opprop" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="paamelding-skytter" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="lag" type="xs:string" />
+                  <xs:attribute name="skive" type="xs:string" />
+                  <xs:attribute name="medlemsid" type="xs:string" />
+                  <xs:attribute name="fornavn" type="xs:string" />
+                  <xs:attribute name="etternavn" type="xs:string" />
+                  <xs:attribute name="sklag-nr" type="xs:string" />
+                  <xs:attribute name="epost" type="xs:string" />
+                  <xs:attribute name="fdato" type="xs:string" />
+                  <xs:attribute name="endeskive" type="xs:string" />
+                  <xs:attribute name="LS_ovelse" type="xs:string" />
+                  <xs:attribute name="klasse" type="xs:string" />
+                  <xs:attribute name="klasse-felt" type="xs:string" />
+                  <xs:attribute name="klasse-skogslop" type="xs:string" />
+                  <xs:attribute name="kat-mf" type="xs:string" />
+                  <xs:attribute name="kat-mb" type="xs:string" />
+                  <xs:attribute name="kat-k" type="xs:string" />
+                  <xs:attribute name="kat-l" type="xs:string" />
+                  <xs:attribute name="kat-a" type="xs:string" />
+                  <xs:attribute name="kat-n" type="xs:string" />
+                  <xs:attribute name="kat-ft" type="xs:string" />
+                  <xs:attribute name="kat-22" type="xs:string" />
+                  <xs:attribute name="kat-luft" type="xs:string" />
+                  <xs:attribute name="gruppe" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" />
+            <xs:attribute name="hold" type="xs:string" />
+            <xs:attribute name="stang" type="xs:string" />
+            <xs:attribute name="felthurtig" type="xs:string" />
+            <xs:attribute name="minne" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="stevnenavn" type="xs:string" />
+      <xs:attribute name="stevnenummer" type="xs:string" />
+      <xs:attribute name="arrangor" type="xs:string" />
+      <xs:attribute name="stevnestart" type="xs:string" />
+      <xs:attribute name="stevneslutt" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="paamelding" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
