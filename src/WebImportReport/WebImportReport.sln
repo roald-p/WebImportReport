@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebImportReport", "WebImpor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebImportReportUI", "WebImportReportUI\WebImportReportUI.csproj", "{1BC323D1-326D-4854-A0D1-63E1D913227E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebImportReport.Common", "WebImport.Common\WebImportReport.Common.csproj", "{00ABC0C9-73AA-4E1E-8326-84A4FE1CF30D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1BC323D1-326D-4854-A0D1-63E1D913227E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BC323D1-326D-4854-A0D1-63E1D913227E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BC323D1-326D-4854-A0D1-63E1D913227E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00ABC0C9-73AA-4E1E-8326-84A4FE1CF30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00ABC0C9-73AA-4E1E-8326-84A4FE1CF30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00ABC0C9-73AA-4E1E-8326-84A4FE1CF30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00ABC0C9-73AA-4E1E-8326-84A4FE1CF30D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

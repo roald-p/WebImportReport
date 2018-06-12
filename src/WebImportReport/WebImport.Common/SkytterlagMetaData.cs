@@ -1,4 +1,4 @@
-﻿namespace WebImportReport
+﻿namespace WebImportReport.Common
 {
     public class SkytterlagMetaData
     {
