@@ -34,6 +34,7 @@
         </Border>
         <StackPanel Orientation="Horizontal" Grid.Row="4" VerticalAlignment="Bottom">
             <Button Margin="5" Content="Generer CSV" Command="{Binding GenerateCSVCommand}" HorizontalAlignment="Right"/>
+            <Button Margin="5" Content="Åpne katalog" Command="{Binding OpenFolderCommand}" IsEnabled="{Binding InputDirectoryExists}" HorizontalAlignment="Right"/>
         </StackPanel>
     </Grid>
 </Window>
